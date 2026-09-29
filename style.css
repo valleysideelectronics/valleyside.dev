@@ -1738,3 +1738,26 @@ strong {
     color: #000;
   }
 }
+
+/* ---------- Live demo callout (under featured work) ---------- */
+
+.demo-callout {
+  margin-top: var(--s-5);
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px 32px;
+}
+
+.demo-callout > div {
+  flex: 1 1 320px;
+}
+
+.demo-callout h3 {
+  margin: 0 0 6px;
+}
+
+.demo-callout p {
+  margin: 0;
+}
